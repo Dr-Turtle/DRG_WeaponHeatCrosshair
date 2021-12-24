@@ -29,10 +29,10 @@
 /wd4244
 /wd4838
 /I .
-/I "F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel\Private"
-/I "F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Inc\FSDAnsel"
-/I "F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Plugins\Nvidia\FSDAnsel\Source"
-/I "F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel\Public"
+/I C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel\Private
+/I C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Inc\FSDAnsel
+/I C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source
+/I C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel\Public
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -254,18 +254,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Intermediate\Build\Win64\FSDEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Intermediate\Build\Win64\FSDEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Intermediate\Build\Win64\FSDEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Development\FSDAnsel\Module.FSDAnsel.cpp"
-/FI"F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Development\FSDAnsel\Definitions.FSDAnsel.h"
-/Fo"F:\DRG Modding\UE4GameProjectGenerator\FSDTemplate\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Development\FSDAnsel\Module.FSDAnsel.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7.2\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Intermediate\Build\Win64\FSDEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Intermediate\Build\Win64\FSDEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Intermediate\Build\Win64\FSDEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Development\FSDAnsel\Module.FSDAnsel.cpp"
+/FI"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Development\FSDAnsel\Definitions.FSDAnsel.h"
+/Fo"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Development\FSDAnsel\Module.FSDAnsel.cpp.obj"
 /TP
 /GR-
 /W4
