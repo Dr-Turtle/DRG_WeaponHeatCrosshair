@@ -1,0 +1,3 @@
+[submodule "DRGLibDevkitFiles"]
+	path = DRGLibDevkitFiles
+	url = https://github.com/SamsDRGMods/DRGLibDevkitFiles.git
