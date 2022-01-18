@@ -27,10 +27,10 @@
 /wd4244
 /wd4838
 /I .
-/I E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel\Private
-/I E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4\Inc\FSDAnsel
-/I E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source
-/I E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel\Public
+/I C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel\Private
+/I C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4\Inc\FSDAnsel
+/I C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source
+/I C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel\Public
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -143,19 +143,19 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7.2\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
 /D_HAS_EXCEPTIONS=0
-/FI"E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Intermediate\Build\Win64\FSDGame\Shipping\Engine\SharedPCH.Engine.h"
-/Yu"E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Intermediate\Build\Win64\FSDGame\Shipping\Engine\SharedPCH.Engine.h"
-/Fp"E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Intermediate\Build\Win64\FSDGame\Shipping\Engine\SharedPCH.Engine.h.pch"
-"E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4\Shipping\FSDAnsel\Module.FSDAnsel.cpp"
-/FI"E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4\Shipping\FSDAnsel\Definitions.FSDAnsel.h"
-/Fo"E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4\Shipping\FSDAnsel\Module.FSDAnsel.cpp.obj"
+/FI"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Intermediate\Build\Win64\FSDGame\Shipping\Engine\SharedPCH.Engine.h"
+/Yu"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Intermediate\Build\Win64\FSDGame\Shipping\Engine\SharedPCH.Engine.h"
+/Fp"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Intermediate\Build\Win64\FSDGame\Shipping\Engine\SharedPCH.Engine.h.pch"
+"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4\Shipping\FSDAnsel\Module.FSDAnsel.cpp"
+/FI"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4\Shipping\FSDAnsel\Definitions.FSDAnsel.h"
+/Fo"C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4\Shipping\FSDAnsel\Module.FSDAnsel.cpp.obj"
 /TP
 /GR-
 /W4
