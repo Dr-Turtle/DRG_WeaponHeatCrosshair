@@ -1,0 +1,8 @@
+Project file not found: E:/DRG_Modding/Github/DRG_WeaponHeatCrosshair/FSD/FSD.uproject
+	Attempting to find via project info helper.
+Found projects:
+Not using cached read wrapper
+Failed to open descriptor file E:/DRG_Modding/Github/DRG_WeaponHeatCrosshair/FSD/FSD.uproject
+Message dialog closed, result: Ok, title: Message, text: Failed to open descriptor file E:/DRG_Modding/Github/DRG_WeaponHeatCrosshair/FSD/FSD.uproject
+Could not find a valid project file, the engine will exit now.
+Engine exit requested (reason: EngineExit() was called)
