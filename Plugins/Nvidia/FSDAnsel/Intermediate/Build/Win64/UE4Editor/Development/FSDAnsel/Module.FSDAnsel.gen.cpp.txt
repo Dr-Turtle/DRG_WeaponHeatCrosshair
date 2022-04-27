@@ -1,15 +1,16 @@
-C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Development\FSDAnsel\Definitions.FSDAnsel.h
-C:/DRG_Modding/UE_Projects/SimpleHeatCrosshair/Plugins/Nvidia/FSDAnsel/Intermediate/Build/Win64/UE4Editor/Inc/FSDAnsel/EUIControlEffectTarget.gen.cpp
-C:\Program Files\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel/Public/EUIControlEffectTarget.h
-c:\drg_modding\ue_projects\simpleheatcrosshair\plugins\nvidia\fsdansel\intermediate\build\win64\ue4editor\inc\fsdansel\EUIControlEffectTarget.generated.h
-C:/DRG_Modding/UE_Projects/SimpleHeatCrosshair/Plugins/Nvidia/FSDAnsel/Intermediate/Build/Win64/UE4Editor/Inc/FSDAnsel/FSDAnsel.init.gen.cpp
-C:/DRG_Modding/UE_Projects/SimpleHeatCrosshair/Plugins/Nvidia/FSDAnsel/Intermediate/Build/Win64/UE4Editor/Inc/FSDAnsel/FSDAnselFunctionLibrary.gen.cpp
-C:\DRG_Modding\UE_Projects\SimpleHeatCrosshair\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel/Public/FSDAnselFunctionLibrary.h
-C:\Program Files\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
-C:\Program Files\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
-C:\Program Files\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
-C:\Program Files\UE_4.25\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
-C:\Program Files\UE_4.25\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
-c:\drg_modding\ue_projects\simpleheatcrosshair\plugins\nvidia\fsdansel\intermediate\build\win64\ue4editor\inc\fsdansel\FSDAnselFunctionLibrary.generated.h
+E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair 4.27\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Development\FSDAnsel\Definitions.FSDAnsel.h
+E:/DRG_Modding/Github/DRG_WeaponHeatCrosshair 4.27/Plugins/Nvidia/FSDAnsel/Intermediate/Build/Win64/UE4Editor/Inc/FSDAnsel/EUIControlEffectTarget.gen.cpp
+E:\ProgramFiles\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\ProgramFiles\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair 4.27\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel/Public/EUIControlEffectTarget.h
+E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair 4.27\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Inc\FSDAnsel\EUIControlEffectTarget.generated.h
+E:/DRG_Modding/Github/DRG_WeaponHeatCrosshair 4.27/Plugins/Nvidia/FSDAnsel/Intermediate/Build/Win64/UE4Editor/Inc/FSDAnsel/FSDAnsel.init.gen.cpp
+E:/DRG_Modding/Github/DRG_WeaponHeatCrosshair 4.27/Plugins/Nvidia/FSDAnsel/Intermediate/Build/Win64/UE4Editor/Inc/FSDAnsel/FSDAnselFunctionLibrary.gen.cpp
+E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair 4.27\Plugins\Nvidia\FSDAnsel\Source\FSDAnsel/Public/FSDAnselFunctionLibrary.h
+E:\ProgramFiles\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+E:\ProgramFiles\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+E:\ProgramFiles\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+E:\ProgramFiles\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+E:\ProgramFiles\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+E:\ProgramFiles\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
+E:\DRG_Modding\Github\DRG_WeaponHeatCrosshair 4.27\Plugins\Nvidia\FSDAnsel\Intermediate\Build\Win64\UE4Editor\Inc\FSDAnsel\FSDAnselFunctionLibrary.generated.h

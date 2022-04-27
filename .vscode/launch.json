@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "FSDEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FSDEditor Win64 Debug Build",
+			"program": "E:\\ProgramFiles\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject"
+			],
+			"cwd": "E:\\ProgramFiles\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\ProgramFiles\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FSDEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FSDEditor Win64 DebugGame Build",
+			"program": "E:\\ProgramFiles\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject"
+			],
+			"cwd": "E:\\ProgramFiles\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\ProgramFiles\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FSDEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "FSDEditor Win64 Development Build",
+			"program": "E:\\ProgramFiles\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject"
+			],
+			"cwd": "E:\\ProgramFiles\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\ProgramFiles\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FSDGame (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FSDGame Win64 Debug Build",
+			"program": "E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "E:\\ProgramFiles\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\ProgramFiles\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FSDGame (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FSDGame Win64 DebugGame Build",
+			"program": "E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "E:\\ProgramFiles\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\ProgramFiles\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FSDGame (Development)",
+			"request": "launch",
+			"preLaunchTask": "FSDGame Win64 Development Build",
+			"program": "E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "E:\\ProgramFiles\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\ProgramFiles\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FSDGame (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "FSDGame Win64 Shipping Build",
+			"program": "E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "E:\\ProgramFiles\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\ProgramFiles\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FSDGame (Test)",
+			"request": "launch",
+			"preLaunchTask": "FSDGame Win64 Test Build",
+			"program": "E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "E:\\ProgramFiles\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\ProgramFiles\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "E:\\ProgramFiles\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "E:\\ProgramFiles\\UE_4.27"
+		}
+	]
+}

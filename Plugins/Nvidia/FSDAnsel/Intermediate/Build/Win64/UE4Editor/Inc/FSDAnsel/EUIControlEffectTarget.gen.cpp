@@ -30,7 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeEUIControlEffectTarget() {}
 		return EUIControlEffectTarget_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EUIControlEffectTarget(EUIControlEffectTarget_StaticEnum, TEXT("/Script/FSDAnsel"), TEXT("EUIControlEffectTarget"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_FSDAnsel_EUIControlEffectTarget_Hash() { return 12002348U; }
+	uint32 Get_Z_Construct_UEnum_FSDAnsel_EUIControlEffectTarget_Hash() { return 2322132616U; }
 	UEnum* Z_Construct_UEnum_FSDAnsel_EUIControlEffectTarget()
 	{
 #if WITH_HOT_RELOAD
@@ -64,6 +64,7 @@ void EmptyLinkFunctionForGeneratedCodeEUIControlEffectTarget() {}
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::Regular,
 				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))

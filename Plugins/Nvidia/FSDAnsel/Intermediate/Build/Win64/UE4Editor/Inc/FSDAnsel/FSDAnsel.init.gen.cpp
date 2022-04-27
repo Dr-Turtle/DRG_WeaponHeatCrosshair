@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFSDAnsel_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x87E03DF4,
+				0x5AB03960,
 				0x4B266D53,
 				METADATA_PARAMS(nullptr, 0)
 			};
