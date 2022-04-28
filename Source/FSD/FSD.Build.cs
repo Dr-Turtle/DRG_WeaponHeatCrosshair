@@ -39,5 +39,9 @@ public class FSD : ModuleRules {
             "SlateCore",
             "UMG",
         });
+        PrivateDependencyModuleNames.AddRange(new string[] {
+	        "RenderCore",
+	        "RHI"
+	    });
     }
 }

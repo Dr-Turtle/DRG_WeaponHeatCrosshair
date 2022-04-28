@@ -2,705 +2,1708 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "FSDEditor Win64 Debug Build",
+			"label": "FSDEditor Linux Debug Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDEditor",
-				"Win64",
+				"Linux",
 				"Debug",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDEditor Win64 Debug Rebuild",
+			"label": "FSDEditor Linux Debug Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDEditor",
-				"Win64",
+				"Linux",
 				"Debug",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDEditor Win64 Debug Clean"
+				"FSDEditor Linux Debug Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDEditor Win64 Debug Clean",
+			"label": "FSDEditor Linux Debug Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDEditor",
-				"Win64",
+				"Linux",
 				"Debug",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDEditor",
+				"Linux",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDEditor Win64 DebugGame Build",
+			"label": "FSDEditor Linux DebugGame Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDEditor",
-				"Win64",
+				"Linux",
 				"DebugGame",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
-			}
-		},
-		{
-			"label": "FSDEditor Win64 DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"FSDEditor",
-				"Win64",
-				"DebugGame",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDEditor Win64 DebugGame Clean"
+				"FSDEditor Linux DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDEditor Win64 DebugGame Clean",
+			"label": "FSDEditor Linux DebugGame Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDEditor",
-				"Win64",
+				"Linux",
 				"DebugGame",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDEditor",
+				"Linux",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDEditor Win64 Development Build",
+			"label": "FSDEditor Linux Development Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDEditor",
-				"Win64",
+				"Linux",
 				"Development",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
-			}
-		},
-		{
-			"label": "FSDEditor Win64 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"FSDEditor",
-				"Win64",
-				"Development",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDEditor Win64 Development Clean"
+				"FSDEditor Linux Development Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDEditor Win64 Development Clean",
+			"label": "FSDEditor Linux Development Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDEditor",
-				"Win64",
+				"Linux",
 				"Development",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Debug Build",
+			"label": "FSDEditor Mac Debug Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"FSDGame",
-				"Win32",
+				"FSDEditor",
+				"Mac",
 				"Debug",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Debug Rebuild",
+			"label": "FSDEditor Mac Debug Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"FSDGame",
-				"Win32",
+				"FSDEditor",
+				"Mac",
 				"Debug",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win32 Debug Clean"
+				"FSDEditor Mac Debug Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Debug Clean",
+			"label": "FSDEditor Mac Debug Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"FSDGame",
-				"Win32",
+				"FSDEditor",
+				"Mac",
 				"Debug",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDEditor",
+				"Mac",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 DebugGame Build",
+			"label": "FSDEditor Mac DebugGame Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"FSDGame",
-				"Win32",
+				"FSDEditor",
+				"Mac",
 				"DebugGame",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
-			}
-		},
-		{
-			"label": "FSDGame Win32 DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"FSDGame",
-				"Win32",
-				"DebugGame",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win32 DebugGame Clean"
+				"FSDEditor Mac DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 DebugGame Clean",
+			"label": "FSDEditor Mac DebugGame Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"FSDGame",
-				"Win32",
+				"FSDEditor",
+				"Mac",
 				"DebugGame",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDEditor",
+				"Mac",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Development Build",
+			"label": "FSDEditor Mac Development Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
-				"FSDGame",
-				"Win32",
+				"FSDEditor",
+				"Mac",
 				"Development",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
-			}
-		},
-		{
-			"label": "FSDGame Win32 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"FSDGame",
-				"Win32",
-				"Development",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win32 Development Clean"
+				"FSDEditor Mac Development Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Development Clean",
+			"label": "FSDEditor Mac Development Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDEditor",
+				"Mac",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win32",
-				"Development",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"Mac",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Shipping Build",
+			"label": "FSDGame Mac Debug Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win32",
+				"Mac",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Mac",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Mac",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Mac",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Mac",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Mac",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Mac",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Mac",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Mac",
 				"Shipping",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Shipping Rebuild",
+			"label": "FSDGame Mac Shipping Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win32",
+				"Mac",
 				"Shipping",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win32 Shipping Clean"
+				"FSDGame Mac Shipping Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Shipping Clean",
+			"label": "FSDGame Mac Shipping Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win32",
+				"Mac",
 				"Shipping",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Mac",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Test Build",
+			"label": "FSDGame Mac Test Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win32",
+				"Mac",
 				"Test",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
-			}
-		},
-		{
-			"label": "FSDGame Win32 Test Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"FSDGame",
-				"Win32",
-				"Test",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win32 Test Clean"
+				"FSDGame Mac Test Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win32 Test Clean",
+			"label": "FSDGame Mac Test Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win32",
+				"Mac",
 				"Test",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 Debug Build",
+			"label": "FSDGame IOS Debug Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"Debug",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 Debug Rebuild",
+			"label": "FSDGame IOS Debug Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"Debug",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win64 Debug Clean"
+				"FSDGame IOS Debug Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 Debug Clean",
+			"label": "FSDGame IOS Debug Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"Debug",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 DebugGame Build",
+			"label": "FSDGame IOS DebugGame Build",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"DebugGame",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 DebugGame Rebuild",
+			"label": "FSDGame IOS DebugGame Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"DebugGame",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win64 DebugGame Clean"
+				"FSDGame IOS DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 DebugGame Clean",
+			"label": "FSDGame IOS DebugGame Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"DebugGame",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"IOS",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 Development Build",
+			"label": "FSDGame IOS Development Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"Development",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
-			}
-		},
-		{
-			"label": "FSDGame Win64 Development Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"FSDGame",
-				"Win64",
-				"Development",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win64 Development Clean"
+				"FSDGame IOS Development Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 Development Clean",
+			"label": "FSDGame IOS Development Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"Development",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"IOS",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 Shipping Build",
+			"label": "FSDGame IOS Shipping Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"Shipping",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
-			}
-		},
-		{
-			"label": "FSDGame Win64 Shipping Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"FSDGame",
-				"Win64",
-				"Shipping",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win64 Shipping Clean"
+				"FSDGame IOS Shipping Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 Shipping Clean",
+			"label": "FSDGame IOS Shipping Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"Shipping",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"IOS",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 Test Build",
+			"label": "FSDGame IOS Test Rebuild",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"Test",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
-			}
-		},
-		{
-			"label": "FSDGame Win64 Test Rebuild",
-			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Build.bat",
-			"args": [
-				"FSDGame",
-				"Win64",
-				"Test",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"FSDGame Win64 Test Clean"
+				"FSDGame IOS Test Clean"
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		},
 		{
-			"label": "FSDGame Win64 Test Clean",
+			"label": "FSDGame IOS Test Clean",
 			"group": "build",
-			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
 			"args": [
 				"FSDGame",
-				"Win64",
+				"IOS",
 				"Test",
-				"E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\FSD.uproject",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "E:\\ProgramFiles\\UE_4.27"
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"Linux",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"LinuxAArch64",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Debug",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"DebugGame",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Development",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Shipping",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FSDGame TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
+			}
+		},
+		{
+			"label": "FSDGame TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FSDGame",
+				"TVOS",
+				"Test",
+				"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/FSD.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/turtle/Documents/UnrealEngine"
 			}
 		}
 	]

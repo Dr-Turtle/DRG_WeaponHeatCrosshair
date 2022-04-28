@@ -1,18 +1,18 @@
 {
     "configurations": [
         {
-            "name": "FSDEditor Editor Win64 Development (FSD)",
-            "intelliSenseMode": "msvc-x64",
-            "compileCommands": "E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\.vscode\\compileCommands_FSD.json",
-            "cStandard": "c17",
-            "cppStandard": "c++17"
+            "name": "FSDEditor Editor Linux Development (FSD)",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/.vscode/compileCommands_FSD.json",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
         },
         {
-            "name": "Win32",
-            "intelliSenseMode": "msvc-x64",
-            "compileCommands": "E:\\DRG_Modding\\Github\\DRG_WeaponHeatCrosshair 4.27\\.vscode\\compileCommands_Default.json",
-            "cStandard": "c17",
-            "cppStandard": "c++17"
+            "name": "Linux",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/.vscode/compileCommands_Default.json",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
         }
     ],
     "version": 4
