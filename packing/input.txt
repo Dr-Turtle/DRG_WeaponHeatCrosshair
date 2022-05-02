@@ -1,0 +1,1 @@
+"/home/turtle/Documents/Git/DRG/DRG_WeaponHeatCrosshair/packing/temp/*" "../../../FSD/"
