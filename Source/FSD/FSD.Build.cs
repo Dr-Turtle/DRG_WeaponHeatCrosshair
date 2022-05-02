@@ -11,10 +11,12 @@ public class FSD : ModuleRules {
             "AnimGraphRuntime",
             "AnimationCore",
             "AnimationSharing",
-            "AudioExtensions",
             "AudioMixer",
+            "Chaos",
             "Core",
             "CoreUObject",
+            "DLSSBlueprint",
+            "DeveloperSettings",
             "Engine",
             "FSDEngine",
             "GameplayTags",
@@ -31,10 +33,15 @@ public class FSD : ModuleRules {
             "NiagaraShader",
             "OnlineSubsystem",
             "OnlineSubsystemUtils",
+            "PhysicsCore",
             "PropertyPath",
             "Slate",
             "SlateCore",
             "UMG",
         });
+        PrivateDependencyModuleNames.AddRange(new string[] {
+	        "RenderCore",
+	        "RHI"
+	    });
     }
 }
